@@ -10,7 +10,7 @@ elif score > 80 and score <= 90:  # B grade condition
     grade = 'B'  
 elif score > 90 and score <= 100:  # A grade condition  
     grade = 'A'  
-else:  # Invalid score condition  
+else :  # Invalid score condition  
     grade = 'Invalid score'  
 
 print(f"Your grade is: {grade}")  
